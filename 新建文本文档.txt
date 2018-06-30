@@ -1,0 +1,14 @@
+ssh-keygen -t rsa -C “840337303@qq.com”
+
+ssh -T git@github.com 
+
+git config --global user.name "jingjie0718"
+
+git config --global user.email "840337303@qq.com"  
+
+git clone "https://github.com/jingjie0718/jingjieProject.git"
+
+git add .
+git commit -m "第一次提交"
+#git push orign master
+git push
